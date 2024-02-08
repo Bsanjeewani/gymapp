@@ -1,0 +1,130 @@
+body{
+    color: white;
+        margin: 0px;
+        padding: 0px;
+        /* background-color: yellowgreen; */
+        background: url("Project images/pexels-scott-webb-136409.jpg");
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50%;
+        font-family: 'Baloo Bhai 2';
+       
+    }
+.left{ 
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 34px;
+    /* border: 2px solid red; */
+
+}
+
+.mid{
+    display: block;
+    margin: 20px auto;
+    width: 52%;
+    /* border: 2px solid yellowgreen; */
+  
+}
+
+.right{
+    position: absolute;
+    top: 20px;
+    right: 34px;
+    display: inline-block;
+    /* border: 2px solid lightgreen; */
+    
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+ .navbar li a{
+     color: white;
+     text-decoration: none;
+     padding: 34px 23px;
+ }
+ .navbar li a:hover,.navbar li a:active{
+     text-decoration: underline;
+     color: gray;
+ }
+ .left img{
+     width: 62px;
+     /* background: transparent; */
+     filter: invert(100%);
+ }
+ .left div{
+     line-height: 19px;
+     font-size: 26px;
+     text-align: center;
+ }
+ .btn{
+     margin: 10px;
+     color: white;
+     background-color: transparent;
+     padding: 5px;
+     border: 2px solid yellowgreen;
+     border-radius: 10px;
+     font-size: 20px;
+     cursor: pointer;
+ }
+ .btn:hover{
+     /* padding-right: 0.5px; */
+     background-color: yellowgreen;
+
+ }
+ .container{
+     /* margin: 12px auto; */
+     border : 2px solid white;
+     margin: 106px 80px ;
+     padding: 75px;
+     height: 22%;
+     width: 33%;
+     border-radius: 28px;
+ }
+ .formgroup input{
+     font-size: 15px;
+     font-weight: bold;
+    font-family: 'Baloo Bhai 2';
+    display: block;
+    color: whitesmoke;
+    background: transparent;
+    text-align: center;
+    width: 62%;
+    user-select: auto;
+    border-radius: 7px;
+    height: 24px;
+    line-height: 16px;
+    margin: 22px auto;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+ }
+ .btns{
+    display: block;
+    width: 67%;
+    border: 2px solid white;
+    margin: 9px auto;
+    user-select: auto;
+    border: 2px solid wheat;
+    background: transparent;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 39px;
+    color: azure;
+    text-align: center;
+ }
+ .btns:hover{
+     background-color: yellowgreen;
+ }
+ .formgroup input:hover{
+     background-color: yellowgreen;
+ }
+ h3{
+     margin-bottom: 27px;
+     text-align: center;
+ }
